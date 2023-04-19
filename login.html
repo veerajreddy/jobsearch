@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Login Page</title>
+    <style>
+      body {
+        background-image: url("art-5223177.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        margin: 0%;
+        display: flex;
+        font-family: Arial, sans-serif;
+
+        color: #fff;
+        height: 100hv;
+      }
+
+      .container {
+        width: 35%;
+        margin: 16% auto;
+        background-color: #333;
+        padding: 20px;
+        border-radius: 10px;
+      }
+
+      h1 {
+        text-align: center;
+        color: rgb(0, 255, 51);
+      }
+
+      input[type="text"],
+      input[type="password"] {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+      }
+
+      button {
+        background-color: rgb(0, 255, 51);
+        color: #fff;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        width: 100%;
+      }
+
+      button:hover {
+        background-color: rgb(0, 255, 51);
+      }
+
+      .register {
+        text-align: center;
+        margin-top: 20px;
+      }
+
+      .register a {
+        color: rgb(0, 255, 51);
+        text-decoration: none;
+      }
+
+      .register a:hover {
+        color: rgb(0, 255, 51);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Login</h1>
+      <form method="post" action="login.php">
+        <label for="username"><b>Username</b></label>
+        <input
+          type="text"
+          id="username"
+          placeholder="Enter Username"
+          name="username"
+          required
+        />
+        <label for="password"><b>Password</b></label>
+        <input
+          id="password"
+          type="password"
+          placeholder="Enter Password"
+          name="password"
+          required
+        />
+        <button type="submit">Login</button>
+      </form>
+      <div class="register">
+        <p>Don't have an account? <a href="register.html">Register here</a></p>
+      </div>
+    </div>
+    <div></div>
+  </body>
+</html>

@@ -1,0 +1,72 @@
+@font-face {
+    font-family: 'Curvilingus';
+    src: url('/Users/veeraj/Desktop/code/practice/jup/curvilingus/Curvilingus.ttf');
+  }
+  
+  body {
+    background-image: url("art-5223177.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0%;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  header {
+    margin: 1px;
+    display: flex;
+    flex-direction: row;
+    height: 75px;
+  }
+  
+  .title {
+    flex-grow: 3;
+    color: rgb(0, 255, 51);
+    font-family: 'Curvilingus';
+    margin-left: 5%;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: x-large;
+  }
+  
+  .tabs {
+    flex-grow: 1;
+    color: rgb(5, 7, 6);
+    font-family: 'Curvilingus';
+    font-size: x-large;
+    margin-left: 5%;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  
+  .middle {
+    
+    text-align:center;
+    flex-grow: 10;
+    color: rgb(5, 7, 6);
+    font-family: 'Curvilingus';
+    font-size: xx-large;
+    margin: 0%;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+ 
+.text{
+    flex-grow: 1;
+  }
+  
+  .bottom {
+    flex-grow: 1;
+   
+  }
+
+
+
+
+
+  
+  

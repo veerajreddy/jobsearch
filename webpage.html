@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hover and Dropdown Example</title>
+    <style>
+      .grid1,
+      .grid2 {
+        margin-left: auto;
+        margin-right: auto;
+
+        position: relative;
+        float: left;
+      }
+      body {
+        background-image: url("art-5223177.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        margin: 0%;
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        font-family: Arial, sans-serif;
+        color: #fff;
+      }
+      header {
+        margin: 1px;
+        display: flex;
+        flex-direction: row;
+        height: 75px;
+      }
+
+      .title {
+        flex-grow: 3;
+        color: rgb(0, 255, 51);
+        font-family: "Curvilingus";
+        margin-left: 5%;
+        margin-top: auto;
+        margin-bottom: auto;
+        font-size: x-large;
+      }
+
+      .tabs {
+        flex-grow: 1;
+        color: rgb(5, 7, 6);
+        font-family: "Curvilingus";
+        font-size: x-large;
+        margin-left: 5%;
+        margin-top: auto;
+        margin-bottom: auto;
+      }
+
+      .grid1 {
+        background-color: #222;
+        border: 10px;
+      }
+      .dropdown {
+        text-align: center;
+        position: relative;
+        display: inline-block;
+        width: 300px;
+        margin: 20px;
+
+        color: white;
+        font-size: 16px;
+        padding: 20px;
+        cursor: pointer;
+        border-radius: 10px;
+      }
+
+      .dropdown:hover {
+        background-color: hsl(131, 85%, 38%);
+        border-radius: 10px;
+      }
+
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: rgb(16, 238, 42);
+        color: #e4e4e4;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+        border-radius: 5px;
+      }
+
+      .dropdown:hover .dropdown-content {
+        display: block;
+        border-radius: 5px;
+      }
+
+      .dropdown-content a {
+        color: white;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        border-radius: 5px;
+      }
+
+      .dropdown-content a:hover {
+        text-align: center;
+        background-color: hsl(131, 85%, 38%);
+        border-radius: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="title">JOB SEARCH.COM</div>
+      <div class="tabs"><a href="jobsearch.html">Home</a></div>
+      <div class="tabs"><a href="webpage.html">Career Option</a></div>
+      <div class="tabs"><a href="resume.html">Resume</a></div>
+      <div class="tabs"><a href="jobsearch0.html">Log Out</a></div>
+    </header>
+    <div class="grid1" style="width: 27%">
+      <h1
+        style="
+          color: white;
+          background-color: hsl(131, 85%, 38%);
+          text-align: center;
+        "
+      >
+        Career Options
+      </h1>
+      <div class="dropdown">
+        Finance
+        <div class="dropdown-content">
+          <a href="https://www.icicibank.com/">ICICI Bank</a>
+          <a href="https://www.hdfcbank.com/">HDFC Bank</a>
+          <a href="https://www.axisbank.com/">Axis Bank</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        Healthcare
+        <div class="dropdown-content">
+          <a href="https://www.apollohospitals.com/">Apollo Hospitals</a>
+          <a href="https://www.fortishealthcare.com/">Fortis Healthcare</a>
+          <a href="https://www.manipalhospitals.com/">Manipal Hospitals</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        Technology
+        <div class="dropdown-content">
+          <a href="https://www.tcs.com/">Tata Consultancy Services (TCS)</a>
+          <a href="https://www.infosys.com/">Infosys</a>
+          <a href="https://www.wipro.com/">Wipro</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        Education
+        <div class="dropdown-content">
+          <a href="https://www.byjus.com/">BYJU'S</a>
+          <a href="https://www.unacademy.com/">Unacademy</a>
+          <a href="https://www.udemy.com/">Udemy</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        Automotive
+        <div class="dropdown-content">
+          <a href="https://www.tatamotors.com/">Tata Motors</a>
+          <a href="https://www.mahindra.com/">Mahindra & Mahindra</a>
+          <a href="https://www.marutisuzuki.com/">Maruti Suzuki</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        Retail
+        <div class="dropdown-content">
+          <a href="https://www.reliance.com/">Reliance Industries</a>
+          <a href="https://www.adityabirla.com/">Aditya Birla Group</a>
+          <a href="https://www.titan.co.in/">Titan Company</a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

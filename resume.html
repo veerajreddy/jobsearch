@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Resume</title>
+    <link rel="stylesheet" href="resume.css" />
+  </head>
+  <body style="background-image: url('art-5223177.jpg')">
+    <header>
+      <div class="title">JOB SEARCH.COM</div>
+      <div class="tabs"><a href="jobsearch.html">Home</a></div>
+      <div class="tabs"><a href="webpage.html">Career Option</a></div>
+      <div class="tabs"><a href="resume.html">Resume</a></div>
+      <div class="tabs"><a href="jobsearch0.html">Log Out</a></div>
+    </header>
+    <form method="POST" action="store_resume.php">
+      <div class="container">
+        <div class="container1">
+          <div class="container11">
+            <h1>Personal Information</h1>
+            <table>
+              <tr>
+                <td class="l">Name:</td>
+                <td>
+                  <input class="i" type="text" id="name" name="name" required />
+                </td>
+              </tr>
+              <tr>
+                <td class="l">Current Address:</td>
+                <td>
+                  <input
+                    class="i"
+                    type="text"
+                    id="current_address"
+                    name="current_address"
+                    required
+                  />
+                </td>
+              </tr>
+              <tr>
+                <td class="l">Permanent Address:</td>
+                <td>
+                  <input
+                    class="i"
+                    type="text"
+                    id="permanent_address"
+                    name="permanent_address"
+                  />
+                </td>
+              </tr>
+            </table>
+          </div>
+
+          <div class="container13">
+            <h1>Education</h1>
+            <table>
+              <tr>
+                <td class="l">Degree:</td>
+                <td>
+                  <input
+                    class="i"
+                    type="text"
+                    id="degree"
+                    name="degree"
+                    required
+                  />
+                </td>
+              </tr>
+              <tr>
+                <td class="l">University:</td>
+                <td>
+                  <input
+                    class="i"
+                    type="text"
+                    id="university"
+                    name="university"
+                    required
+                  />
+                </td>
+              </tr>
+              <tr>
+                <td class="l">Year:</td>
+                <td>
+                  <input class="i" type="text" id="year" name="year" required />
+                </td>
+              </tr>
+            </table>
+          </div>
+
+          <div class="container13">
+            <h1>Awards and Honors</h1>
+            <table>
+              <tr>
+                <td class="l">Award:</td>
+                <td>
+                  <input class="li" type="text" id="award" name="award" />
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+
+        <div class="container2">
+          <div class="container21">
+            <h1>Work and Related Experience</h1>
+            <table>
+              <tr>
+                <td class="l">Company:</td>
+                <td>
+                  <input
+                    class="i"
+                    type="text"
+                    id="company"
+                    name="company"
+                    required
+                  />
+                </td>
+              </tr>
+              <tr>
+                <td class="l">Position:</td>
+                <td>
+                  <input
+                    class="i"
+                    type="text"
+                    id="position"
+                    name="position"
+                    required
+                  />
+                </td>
+              </tr>
+              <tr>
+                <td class="l">Duration:</td>
+                <td>
+                  <input
+                    class="i"
+                    type="text"
+                    id="duration"
+                    name="duration"
+                    required
+                  />
+                </td>
+              </tr>
+            </table>
+          </div>
+          <div class="container22" style="height: 31.7%">
+            <h1>Activities/Hobbies</h1>
+            <table>
+              <tr>
+                <td class="l">Activity:</td>
+                <td>
+                  <input
+                    class="li"
+                    type="text"
+                    id="activity"
+                    name="activity"
+                    required
+                  />
+                </td>
+              </tr>
+            </table>
+          </div>
+          <div class="container23">
+            <h1>Skills</h1>
+            <table>
+              <tr>
+                <td class="l">Skills:</td>
+                <td>
+                  <input
+                    class="li"
+                    type="text"
+                    id="skills"
+                    name="skills"
+                    required
+                  />
+                </td>
+              </tr>
+            </table>
+            <button class="submit" type="submit">SUBMIT</button>
+          </div>
+        </div>
+      </div>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,93 @@
+
+
+@font-face {
+    font-family: 'Curvilingus';
+    src: url('/Users/veeraj/Desktop/code/practice/jup/curvilingus/Curvilingus.ttf');
+  }
+  
+body{
+    background-color: black;
+    background-image: url("art-5223177.jpg");
+    background-size: cover;
+    background-repeat:unset;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0%;
+    height: 100vh;
+}
+
+header {
+    margin: 1px;
+    display: flex;
+    flex-direction: row;
+    height: 75px;
+}
+
+.title {
+    flex-grow: 3;
+    color: rgb(0, 255, 51);
+    font-family: 'Curvilingus';
+    margin-left: 5%;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: x-large;
+}
+
+.tabs {
+    
+    flex-grow: 1;
+    color: rgb(0, 0, 0);
+    font-family: 'Curvilingus';
+    font-size: x-large;
+    margin-left: 5%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.container{
+    font-style: bold;
+    text-align: center;
+    margin: 0%;
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    width: 100%;
+}
+
+.container1, .container2{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+}
+
+.column11, .column12, .column13, .column21, .column22, .column23{
+    text-align: center;
+    flex-grow: 1;
+    height:100%
+    
+}
+table {
+    border:0px;
+    width: 100%;
+}
+th, td {
+    text-align: left;
+    padding: 8px;
+    
+}
+
+
+input[type=text] {
+    height: 50px;
+    width: 460px;
+    font-size: 16px;
+    padding: 4px;
+    box-sizing: border-box;
+}
+.submit{
+    height: 30px;
+    margin-top: 5%;
+    
+}
